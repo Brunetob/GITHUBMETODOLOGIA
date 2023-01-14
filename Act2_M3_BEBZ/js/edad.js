@@ -1,5 +1,5 @@
 /*Ejercicio 1*/
-let age = 10;
+let age = 19;
 const available = 18;
 
 if(age > available){
