@@ -4,11 +4,18 @@
  * 
  */
 
-let nums = [0,2,4,8]
+let nums = [6,5,4,3]
 
 let i = 0, j = 0;
-let t = nums.length;
+let size = nums.length;
 
-for(j; j<t; j++){
-    console.log(nums[i],nums[j]);
+
+for(i; i<size; i++){
+    if(i<size){
+        for(j; j<size; j++){
+            console.log(nums[i], nums[j]);
+        }
+        console.log("-------------");
+        j=0;
+    }
 }
