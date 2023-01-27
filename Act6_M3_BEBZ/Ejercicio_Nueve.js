@@ -12,15 +12,12 @@
 
 let nums = [5,6,7,8];
 let size = nums.length;
-let mult;
-let i = (size-1);
+/*let i = (size-1);*/
 
 let num = prompt("Ingrese un número por favor");
-nums[i] = num;
 
-
-for(i; i>=0; i--){
+for(let i = (size-1); i>=0; i--){
+    nums[i] = num;
     console.log(i, nums[i]);
-    mult = nums[i] * 2;
-    nums[i] = mult;  
+    num*=2;
 }
