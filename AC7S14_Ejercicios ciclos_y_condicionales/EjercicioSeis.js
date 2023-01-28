@@ -5,12 +5,12 @@ nums=[12,14,5,7]
 //19
  */
 
-let nums = [12,14,5,7];
+let nums = [12,14,5,7,6,21];
 
 let aux = 0;
 
 for(let i = 0; i<nums.length; i++){
-    if(nums[i] % 7 == 0){
+    if(nums[i] % 7 != 0){
         aux += nums[i];
     }
 }
