@@ -1,5 +1,4 @@
-{
-    /*Estructura del método substring */
+/*Estructura del método substring */
 
 "Hola Mundo!".substring(2,6);
 /*Cadena de texto a extraer una parte.substring(parámetro de inicio, parámetro de fin);*/
@@ -31,8 +30,14 @@ console.log(string);*/
 
 /*Ejemplos Prácticos 2*/
 
-let text = "El instituto sudamericano es el mejor de todos";
+/*let text = "El instituto sudamericano es el mejor de todos";
 
 for(let i = 0; i<text.length; i++){
     console.log(text.substring(i));
+}*/
+
+var textShort = "Hola que más ve";
+
+for(let i = textShort.length; i>4; i--){
+    console.log(textShort.substring(i));
 }
