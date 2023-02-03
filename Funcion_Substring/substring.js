@@ -9,6 +9,7 @@
 let dato = "Hola cuenca".substring(-1,5);
 console.log(dato);*/
 
-/*Segunda excepción*/
+/*Segunda excepción
 let string = "Que más ve".substring(4,4);
-console.log(string);
+console.log(string);*/
+
